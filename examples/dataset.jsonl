@@ -1,0 +1,5 @@
+{"type":"document","id":"d1","text":"Reciprocal-rank fusion combines rankings from multiple retrievers."}
+{"type":"document","id":"d2","text":"A cross-encoder reranker scores query and document pairs after retrieval."}
+{"type":"document","id":"d3","text":"Local inference can trade model size for memory use and generation latency."}
+{"type":"query","id":"q1","text":"How can multiple retrieval rankings be combined?","relevant":["d1"]}
+{"type":"query","id":"q2","text":"What model can reorder retrieved passages?","relevant":["d2"]}
