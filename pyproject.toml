@@ -5,10 +5,17 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "embedding-bench"
 version = "0.1.0"
+description = "Retrieval-quality and systems benchmark for local embedding models."
+readme = "README.md"
 requires-python = ">=3.10"
+authors = [{name = "Aarnav Saboo"}]
+keywords = ["embeddings", "retrieval", "rag", "benchmarking", "evaluation"]
 
 [project.optional-dependencies]
 models = ["sentence-transformers>=3"]
+
+[project.urls]
+Repository = "https://github.com/aarnavsaboo/embedding-bench"
 
 [tool.setuptools.packages.find]
 include = ["embedding_bench*"]
